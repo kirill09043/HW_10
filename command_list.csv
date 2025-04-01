@@ -1,84 +1,46 @@
-    1  ls
-    2  clear
-    3  cd Новая папка
-    4  ls
-    5  cd desktop
-    6  cd homework
-    7  pwd
-    8  cd ..
-    9  cd ..
-   10  cd ..
-   11  cd desktop
-   12  cd Desktop
-   13  cd Homework
-   14  cd my computer
-   15  cd ~ 
-   16  ls
-   17  pwd
-   18  cd Desktop
-   19  cd
-   20  pwd
-   21  cd OneDrive
-   22  cd Рабочий стол
-   23  cd Desktop
-   24  cd Desktop
-   25  cd Desktop
-   26  cd -
-   27  cd homework
-   28  touch text_ignore.txt
-   29  cd gitignore.txt
-   30  git status
-   31  git add
-   32  nano
-   33  pwd
-   34  git add
+   1  cd homework
+   2  git clone[200~
+   3  git clone https://github.com/kirill09043/HW_10.git
+   4  cd HW_10
+   5  git status
+   6  touch text_ignore.txt
+   7  nano .gitignore
+   8  git status
+   9  git add .gitignore 
+   10  git status
+   11  commit 
+   12  git commit "Task1"
+   13  git commit
+   14  git config --global user.email "kirilliastrebov@gmail.com"
+   15  git config --global user.name "Kirill"
+   16  git commit
+   17  git log
+   18  cd homework
+   19  cd HW_10/
+   20  git status
+   21  git add
+   22  git commit -m "Task1"
+   23  touch main_test.txt
+   24  git add
+   25  git status
+   26  git add main_test.txt
+   27  git status
+   28  git commit -m "Task2"
+   29  git branch "develop"
+   30  git branch
+   31  git checkout develop
+   32  touch develop_test.txt
+   33  git status
+   34  git add develop_test.txt
    35  git status
-   36  status
-   37  add
-   38  clear
-   39  cd homework
-   40  git clone[200~
-   41  git clone https://github.com/kirill09043/HW_10.git
-   42  cd HW_10
-   43  git status
-   44  touch text_ignore.txt
-   45  nano .gitignore
-   46  git status
-   47  git add .gitignore 
-   48  git status
-   49  commit 
-   50  git commit "Task1"
-   51  git commit
-   52  git config --global user.email "kirilliastrebov@gmail.com"
-   53  git config --global user.name "Kirill"
-   54  git commit
-   55  git log
-   56  cd homework
-   57  cd HW_10/
-   58  git status
-   59  git add
-   60  git commit -m "Task1"
-   61  touch main_test.txt
-   62  git add
-   63  git status
-   64  git add main_test.txt
-   65  git status
-   66  git commit -m "Task2"
-   67  git branch "develop"
-   68  git branch
-   69  git checkout develop
-   70  touch develop_test.txt
-   71  git status
-   72  git add develop_test.txt
-   73  git status
-   74  git commit -m "Task3.1"
-   75  nano develop_test.txt 
-   76  git status
-   77  git add develop_test.txt 
-   78  git status
-   79  git commit -m "Task3.2"
-   80  git checkout main
-   81  git merge develop
-   82  git status
-   83  git log
-   84  history > command_list.csv
+   36  git commit -m "Task3.1"
+   37  nano develop_test.txt 
+   38  git status
+   39  git add develop_test.txt 
+   40  git status
+   41  git commit -m "Task3.2"
+   42  git checkout main
+   43  git merge develop
+   44  git status
+   45  git log
+   46  history > command_list.csv
